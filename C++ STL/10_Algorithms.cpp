@@ -36,4 +36,9 @@ int main()
     }
 
     sort(v.begin(), v.end());
+    cout << "after sort" << endl;
+    for (int i : v)
+    {
+        cout << i << " ";
+    }
 }
